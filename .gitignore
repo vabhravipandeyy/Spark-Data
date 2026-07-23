@@ -1,0 +1,14 @@
+# Generated data (regenerate with src/00_generate_sample_data.py + src/01_spark_pipeline.py)
+data/raw/*.csv
+data/output/
+
+# Python
+__pycache__/
+*.pyc
+
+# Spark
+metastore_db/
+spark-warehouse/
+derby.log
+*.crc
+_SUCCESS
